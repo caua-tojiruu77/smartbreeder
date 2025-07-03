@@ -56,7 +56,7 @@ const ProductCard = ({ product, categories }: Props) => {
             className={`w-full text-sm transition duration-500 ${
               isFavorited
                 ? "bg-green-700 text-white hover:scale-105 hover:bg-green-600"
-                : "bg-white text-brand-200 hover:scale-105"
+                : "bg-black/25 text-brand-200 hover:scale-105"
             }`}
           >
             {isFavorited ? "★ Favorito" : "☆ Favoritar"}
