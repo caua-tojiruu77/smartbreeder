@@ -25,6 +25,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 html {
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -68,17 +69,4 @@ button {
   font-weight: 500;
   font-family: inherit;
   cursor: pointer;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
 }

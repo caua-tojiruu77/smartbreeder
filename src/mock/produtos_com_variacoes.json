@@ -47,7 +47,7 @@
   },
   {
     "id": 2,
-    "nome": null,
+    "nome": "Produto 2",
     "categorias": [
       5
     ],
